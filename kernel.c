@@ -222,7 +222,7 @@ void keyboard_handler_main(void)
 void kmain(void)
 {
     clear_screen();
-    kprint("Kernel Booted. Type 'clear' to test.");
+    kprint("Kernel Booted.");
     kprint_newline();
     kprint("> "); // The shell prompt
 
